@@ -1,0 +1,95 @@
+.nagoyameshi-login-input {
+    border-radius: 2px;
+    border: solid 1px #b2b2b2;
+    background-color: #ffffff;
+}
+
+.nagoyameshi-check-label {
+    font-family: YuGo;
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+.nagoyameshi-submit-button {
+    font-family: YuGo;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.nagoyameshi-login-text {
+    font-family: YuGo;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #0fbe9f;
+}
+
+.account_make_btn {
+    font-size: 20px;
+}
+
+.verification_resend_btn {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#company_table {
+    border: 3px solid black;
+}
+
+#company_table th, #company_table td {
+    border: 1px solid black;
+}
+.review-score-color {
+    color: #ccc92d;
+}
+  
+.review-score-color:focus {
+    color: #ccc92d;
+}
+.mypage_btn {
+    text-decoration: none;
+    color:#000000;
+    padding: 0 10px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 50%, rgb(49, 170, 226) 50%);
+    background-position: 0 0;
+    background-size: 200% auto;
+    transition: .3s;
+}
+  
+.mypage_btn:hover{
+    background-position: -100% 0;
+    color: #fff;
+}
+
+.top_btn{
+    color: #000000;
+}
+
+.top_btn:hover {
+    color: #c2bdb0;
+}
+
+.favorite_btn {
+    color:#e8af13;
+    font-size: 24px;
+    border: 1px solid  #e8af13;
+
+}
+
+.favorite_btn:hover {
+    color: #e8af13;
+    border: 1px solid  #e8af13;
+    opacity: 50%;
+}
