@@ -54,7 +54,7 @@
              <hr>
  
              <div class="form-group">
-                 <a class="btn btn-link mt-3 d-flex justify-content-center" href="{{ route('register') }}">
+                 <a class="btn btn-link mt-3 mb-5 d-flex justify-content-center" href="{{ route('register') }}">
                      新規登録
                  </a>
              </div>

@@ -7,7 +7,7 @@ use App\Models\Category;
 use App\Models\Review;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
-use illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Auth;
 
 class ShopController extends Controller
 {

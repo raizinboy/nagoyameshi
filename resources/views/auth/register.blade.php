@@ -90,7 +90,7 @@
                  </div>
  
                  <div class="form-group">
-                     <button type="submit" class="btn btn-primary mt-2 w-100">
+                     <button type="submit" class="btn btn-primary mt-2 mb-5 w-100">
                          アカウント作成
                      </button>
                  </div>
