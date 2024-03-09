@@ -57,7 +57,7 @@ class UserController extends Controller
      */
     public function destroy(Request $request)
     {
-        Auth::user()->delete();
+        Auth::user()->forceDelete();
         return redirect('/home');
     }
 
