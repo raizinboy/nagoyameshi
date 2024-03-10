@@ -10,17 +10,21 @@
     </div>
     <div class="row">
         <h1 class="display-1 pt-2 ms-2 col-md-9">{{ $shop->name }}</h1>
-        @if($shop->isFavoritedBy(Auth::user()))
-        <a href="{{ route('shops.favorite', $shop) }}" class="btn d-flex mt-4 mb-4  align-items-center favorite_btn col-md-2">
-            <i class="fa fa-heart"></i>
-            お気に入り解除
-        </a>
-        @else
-        <a href="{{ route('shops.favorite', $shop) }}" class="btn d-flex mt-4 mb-4 align-items-center favorite_btn col-md-2">
-            <i class="fa fa-heart"></i>
-            お気に入り
-        </a>
+        @auth
+        @if (auth()->user()->subscribed('default'))
+            @if($shop->isFavoritedBy(Auth::user()))
+            <a href="{{ route('shops.favorite', $shop) }}" class="btn d-flex mt-4 mb-4  align-items-center favorite_btn col-md-2">
+                <i class="fa fa-heart"></i>
+                お気に入り解除
+            </a>
+            @else
+            <a href="{{ route('shops.favorite', $shop) }}" class="btn d-flex mt-4 mb-4 align-items-center favorite_btn col-md-2">
+                <i class="fa fa-heart"></i>
+                お気に入り
+            </a>
+            @endif
         @endif
+        @endauth
     </div>
     <div class="card border-dark border-4 mb-5">
         <img src="{{ asset('img/sample1.jpeg') }}" class="card-img-top" alt="サンプル1">

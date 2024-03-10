@@ -4,7 +4,7 @@
  <div class="container">
      <div class="row justify-content-center">
          <div class="col-md-5">
-            <h3 class="text-center">会員登録ありがとうございます！</h3>
+            <h3 class="text-center mt-3">会員登録ありがとうございます！</h3>
  
             <p class="text-center">
                  現在、仮会員の状態です。  
@@ -32,4 +32,3 @@
      </div>
  </div>
  @endsection
-S
